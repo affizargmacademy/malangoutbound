@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Mencegah bot mengindeks folder API atau Admin (Standar keamanan)
+Disallow: /api/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /login/
+
+# Jangan blokir CSS/JS/Images! 
+# Google perlu melihat file Bootstrap Anda untuk menilai "Mobile-Friendliness".
+
+# Peta Situs (Wajib untuk SEO)
+Sitemap: https://malangoutbound.vercel.app/sitemap.xml
